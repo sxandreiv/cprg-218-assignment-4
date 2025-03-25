@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    color: #FFDBBB;
+    background: linear-gradient(to right, #008CBA, #00d4ff);
+    border-radius: 90%;
+    text-shadow: 
+        3px 3px 5px rgba(0, 0, 0, 0.3),
+        0 0 25px rgba(0, 0, 0, 0.2);
+}
+h3{
+    color: #FFDBBB;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #496580;
+    color: white;
+}
+#joke {
+    margin: 20px auto;
+    font-size: 1.5em;
+    max-width: 600px;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-color: #FFDBBB;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2)
+}
+button:hover {
+    background-color: #005f73;
+    color: white;
+}
